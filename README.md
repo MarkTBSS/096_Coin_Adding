@@ -12,5 +12,5 @@ go run ./databases/migration/migration.go
 go run ./databases/migration/migration_item/migration_item.go
 
 go run .
-localhost:8080/v1/item-editing/:itemID
+localhost:8080/v1/player-coin
 ```
