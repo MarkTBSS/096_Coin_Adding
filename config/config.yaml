@@ -1,0 +1,15 @@
+database:
+  host: localhost
+  port: 5434
+  user: postgres
+  password: Pass1234
+  dbname: isekaishopdb
+  sslmode: disable
+  schema: public
+
+server:
+  port: 8080
+  allowOrigins:
+    - "*"
+  bodyLimit: "10M" # MiB
+  timeout: 30 # Seconds
